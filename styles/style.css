@@ -9,6 +9,8 @@ html, body {
     min-height: 100%;
     overflow: hidden;
     flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 header {
     background: #e5e5e5 url(../images/wall.png); 
@@ -25,7 +27,7 @@ nav {
     align-items: center;
 }
 nav > img {
-    max-width: 25vw;
+    max-width: 15vw;
 }
 nav a{
     text-decoration: none;
@@ -82,7 +84,7 @@ h1 {
 }
 @media screen and (max-width: 970px) {
     .h-wrapp > img {
-        width: 100%;
+        width: 90vw;
     }
     .h-wrapp {
         justify-content: center;
@@ -108,8 +110,8 @@ h1 {
     nav {
         justify-content: space-between;
     }
-    nav > img{
-        width: 35vw;
+    nav > img {
+        max-width: 35vw;
     }
 }
 
@@ -164,6 +166,48 @@ main {
     }
 }
 
+/* НАШИ РАБОТЫ */
+.our_works_wrapp {
+    margin: 70px 0;
+    width: 100%;
+    min-height: 650px;
+    background: #e5e5e5 url(../images/small_wall.png); 
+	color:#000;     
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.our_works_wrapp h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+}
+
+/* СКОЛЬКОС СТОЯТ НАШИ КАРТИНЫ */
+h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+}
+.price_wrapp {
+    display: flex;
+    justify-content: space-around;
+}
+.price_wrapp_col {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    /* padding: 0px 64px; */
+}
+.price_img {
+    max-width: 100%;
+    padding: 35px 0px;
+}
+
 @font-face {
     font-family: "Montserrat"; 
     src: url("../fonts/Montserrat-Regular.ttf") format("truetype"); 
@@ -172,7 +216,7 @@ main {
     } 
 @font-face {
     font-family: "Montserrat"; 
-    src: url("../fonts/Montserrat-Semibold.ttf") format("truetype"); 
+    src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: bold; 
     }
