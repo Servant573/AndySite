@@ -81,8 +81,8 @@ h1 {
     margin-right: 35px;
 }
 @media screen and (max-width: 970px) {
-    .h-wrapp >img {
-        max-width: 100%;
+    .h-wrapp > img {
+        width: 100%;
     }
     .h-wrapp {
         justify-content: center;
