@@ -9,33 +9,39 @@
 <body>
     <div class="wrapper">
         <header>
-            <nav>
-                <img src="./images/logo-obr.png" alt="logo" width="" height="">
-                <a href="#" class="link-nav">Наши работы</a>
-                <a href="#" class="link-nav">Стоимость</a>
-                <a href="#" class="link-nav">О картинах со звуком</a>
-                <a href="#" class="link-nav">Контакты</a>
-                <a href="#">
-                    <img class="menu" src="./images/menu.svg" alt="menu" width="31" height="31">
-                </a>
-            </nav>
-            <div class="h-wrapp">
-                <div class="header-col">
-                    <h1>Картины, <br>которые ты можешь услышать</h1>
-                    <button>Сделать заказ</button>
-                    <p>Подписывайся на наши соцсети</p>
-                    <div style="display: flex;">
-                        <img class="logo-vk" src="./images/vk1.svg" alt="" width="35">
-                        <img src="./images/inst1.svg" alt="" width="44" height="34">
+            <div class="container">
+                <nav>
+                    <img src="./images/logo-obr.png" alt="logo" width="" height="">
+                    <a href="#our-works" class="link-nav">Наши работы</a>
+                    <a href="#price" class="link-nav">Стоимость</a>
+                    <a href="#about" class="link-nav">О картинах со звуком</a>
+                    <a href="#contact" class="link-nav">Контакты</a>
+                    <a href="#">
+                        <img class="menu" src="./images/menu.svg" alt="menu" width="31" height="31">
+                    </a>
+                </nav>
+                <div class="h-wrapp">
+                    <div class="header-col">
+                        <h1>Картины, <br>которые ты можешь услышать</h1>
+                        <button>Сделать заказ</button>
+                        <p>Подписывайся на наши соцсети</p>
+                        <div style="display: flex;">
+                            <a href="https://vk.com/voicepicture">
+                                <img class="logo-vk" src="./images/vk1.svg" alt="" width="35">
+                            </a>
+                            <a href="https://vk.com/voicepicture">
+                                <img src="./images/inst1.svg" alt="" width="44" height="34">
+                            </a>
+                        </div>
                     </div>
+                    <img src="./images/main-foto-2.jpg" alt="" >
                 </div>
-                <img src="./images/main-foto-2.jpg" alt="" >
             </div>
         </header> 
         <main>
-            <div class="main-wrapp">
+            <div class="container">
                 <div class="block">
-                    <img src="./images/col1.png" alt="">
+                    <img src="./images/col1.png" alt="" id="about">
                     <section class="col">
                         <h6>Как часто мы слышим слова любви?</h6>
                         <p>Мы предлагаем Вам слушать приятные воспоминания,
@@ -81,21 +87,25 @@
                         </p>
                     </section>
                 </div>
+            </div>  
                 <div class="our_works_wrapp">
-                    <h2>
-                        Наши работы
-                    </h2>
-                    <div class="our-works">
-                        <img src="./images/work1.png" alt="" class="work-img">
-                        <img src="./images/work2.png" alt="" class="work-img">
-                        <img src="./images/work4.png" alt="" class="work-img">
-                        <img src="./images/work5.png" alt="" class="work-img">
-                        <img src="./images/work6.png" alt="" class="work-img">
-                        <img src="./images/work7.png" alt="" class="work-img">
-                        <img src="./images/work3.png" alt="" class="work-img">
+                    <div class="container">
+                        <h2>
+                            Наши работы
+                        </h2>
+                        <div class="our-works" id="our-works">
+                            <img src="./images/work1.png" alt="" class="work-img">
+                            <img src="./images/work2.png" alt="" class="work-img">
+                            <img src="./images/work4.png" alt="" class="work-img">
+                            <img src="./images/work5.png" alt="" class="work-img">
+                            <img src="./images/work6.png" alt="" class="work-img">
+                            <img src="./images/work7.png" alt="" class="work-img">
+                            <img src="./images/work3.png" alt="" class="work-img">
+                        </div>
                     </div>
                 </div>
-                <section class="price">
+            <div class="container">
+                <section class="price" id="price">
                     <h3>Сколько стоят наши картины?</h3>
                     <div class="price_wrapp">
                         <div class="price_wrapp_col">
@@ -114,16 +124,16 @@
             </div>
         </main>
         <footer>
-            <h3>Контактная информация</h3>
+            <h3 id="contact">Контактная информация</h3>
             <div class="footer-wrapp">
                 <div class="link-footer">
                     <img src="./images/whatsapp.svg" alt="" width="35">
                     <img src="./images/viber.svg" alt="" width="35">
-                    <p>+7 (910) 813-84-02</p>
+                    <a>+7 (910) 813-84-02</a>
                 </div>
                 <div class="link-footer">
                     <img src="./images/vk1.svg" alt="" width="35">
-                    <a href="vk.com/voicepicture">vk.com/voicepicture</a>
+                    <a href="https://vk.com/voicepicture">vk.com/voicepicture</a>
                 </div>
                 <div class="link-footer">
                     <img src="./images/inst1.svg" alt="" width="35">
@@ -132,5 +142,8 @@
             </div>
         </footer>
     </div>	
+    <script
+  src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="./scripts/script.js"></script>
 </body>
 </html>
