@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
 	<title>Картины со звуком Voice picture</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/carousel.css">
 </head>
 <body>
     <div class="wrapper">
@@ -102,14 +103,34 @@
                         <h2 id="our-works">
                             Наши работы
                         </h2>
-                        <div class="our-works">
-                            <img src="./images/work1_.jpg" alt="" class="work-img">
-                            <img src="./images/work2_.jpg" alt="" class="work-img">
-                            <img src="./images/work3.jpg" alt="" class="work-img">
-                            <img src="./images/work4_.jpg" alt="" class="work-img">
-                            <img src="./images/work5_.jpg" alt="" class="work-img">
-                            <img src="./images/work6_.jpg" alt="" class="work-img">
-                            <img src="./images/work7_.jpg" alt="" class="work-img">
+                        <div class="wrap">
+                            <div class="b-carousel js-carousel">
+                                <button class="b-carousel__prev js-carousel__prev">Prev</button>
+                                <button class="b-carousel__next js-carousel__next">Next</button>
+                                <div class="b-carousel__wrap js-carousel__wrap">
+                                    <div class="b-carousel__item">
+                                        <img src="./images/work1_.jpg" alt="" class="b-carousel__img">
+                                    </div>
+                                    <div class="b-carousel__item">
+                                        <img src="./images/work2_.jpg" alt="" class="b-carousel__img">
+                                    </div>
+                                    <div class="b-carousel__item">
+                                        <img src="./images/work3.jpg" alt="" class="b-carousel__img">
+                                    </div>
+                                    <div class="b-carousel__item">
+                                        <img src="./images/work4_.jpg" alt="" class="b-carousel__img">
+                                    </div>
+                                    <div class="b-carousel__item">
+                                        <img src="./images/work5_.jpg" alt="" class="b-carousel__img">
+                                    </div>
+                                    <div class="b-carousel__item">
+                                        <img src="./images/work6_.jpg" alt="" class="b-carousel__img">
+                                    </div>
+                                    <div class="b-carousel__item">
+                                        <img src="./images/work7_.jpg" alt="" class="b-carousel__img">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -152,5 +173,6 @@
         </footer>
     </div>	
   <script src="./scripts/script.js"></script>
+  <script src="./scripts/carousel.js"></script>
 </body>
 </html>

@@ -261,25 +261,7 @@ main {
     font-size: 28px;
     line-height: 34px;
     text-align: center;
-}
-/* .our_works {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-} */
-.work-img {
-    max-width: 25vw;
-}
-@media screen and (max-width: 767px) {
-    .work-img {
-        max-width: 50vw;
-    }
-}
-@media screen and (max-width: 412px) {
-    .work-img {
-        max-width: 90vw;
-    }
+    margin-bottom: 20px;
 }
 
 /* СКОЛЬКОС СТОЯТ НАШИ КАРТИНЫ */
