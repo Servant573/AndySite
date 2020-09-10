@@ -112,6 +112,7 @@ nav a{
         align-items: flex-end;
         flex-direction: column;
         transition: all 0.3s ease 0s;
+        z-index: 4;
     }
     nav a {
         padding: 20px 20px;
@@ -262,6 +263,7 @@ main {
     line-height: 34px;
     text-align: center;
     margin-bottom: 20px;
+    margin: 20px 0px;
 }
 
 /* СКОЛЬКОС СТОЯТ НАШИ КАРТИНЫ */
