@@ -27,8 +27,11 @@ header {
     max-width: 1200px;
     margin: 0 auto;
 }
+.nav-wrapp {
+    display: flex;
+}
 .logo-main img {
-    max-width: 35vw;
+    max-width: 15vw;
 }
 nav {
     display: flex;
@@ -36,9 +39,6 @@ nav {
     flex-wrap: wrap;
     padding: 0px 20px;
     align-items: center;
-}
-nav img {
-    max-width: 15vw;
 }
 nav a{
     text-decoration: none;
@@ -142,17 +142,18 @@ nav a{
     max-width: 45%;
 }
 h1 {
-    display: inline;
     font-size: 48px;
     font-weight: 600;
     padding: 10px 0px;
+    margin-bottom: 30px;
 }
 .header-col p {
     font-size: 20px;
     line-height: 24px;
     padding: 10px 0px;
+    margin: 20px 0px;
 }
-.header-col button {
+.btn-link {
     background: #0264BF;
     border-radius: 40px;
     width: 321px;
@@ -161,7 +162,9 @@ h1 {
     font-weight: bold;
     font-size: 30px;
     line-height: 37px;
-    padding: 10px 0px;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 0px;
 }
 .logo-vk{
     margin-right: 35px;
@@ -181,11 +184,11 @@ h1 {
     h1 {
         font-size: 30px;
     }
-    .header-col button {
+    .btn-link {
         width: 50vw;
         font-size: 20px;
     }
-    nav img {
+    .logo-main img {
         max-width: 35vw;
     }
 }
@@ -201,6 +204,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
 }
 @media screen and (max-width: 767px) {
     .block {
@@ -208,11 +212,11 @@ main {
     }
 }
 .block img {
-    width: 45vw;
+    width: 50%;
 }
 .col {
     text-align: center;
-    width: 40vw;
+    width: 50vw;
 }
 .col h6 {
     font-style: normal;
@@ -274,7 +278,7 @@ main {
 }
 @media screen and (max-width: 412px) {
     .work-img {
-        max-width: 70vw;
+        max-width: 90vw;
     }
 }
 
